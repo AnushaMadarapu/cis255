@@ -1,8 +1,8 @@
 body {
-	background-color: #283747;
+	background-color: #CCFF99;
 }
 h1{
-	color: blue;
+	color: purple;
 	font-family: arial;
 }
 
@@ -12,11 +12,11 @@ h2 {
 }
 h3 {
 	color: blue;
-	font-size: 200%;
+	font-size: 100%;
 }
 h4 {
 	color: green;
-	font-size: 200%;
+	font-size: 100%;
 }
 table {
 	border-color: #990000;
@@ -33,7 +33,7 @@ form{
 }
 
 fieldset{
-	background-color: #FFFAE8;
+	background-color: #FF99CC;
 	width: 400px;
 	text-align: center;
 	padding: 20px;
