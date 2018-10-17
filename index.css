@@ -10,11 +10,16 @@ h2 {
 	color: red;
 	font-size: 100%;
 }
-h4 {
-	color: red;
-	font-size: 100%;
+h3 {
+	color: blue;
+	font-size: 200%;
 }
-
+h4 {
+	color: green;
+	font-size: 200%;
+}
+table {
+	border-color: #990000;
 
 form{
 	border-style: solid;
