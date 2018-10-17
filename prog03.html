@@ -1,1 +1,67 @@
-Hello
+<!DOCTYPE html>
+<html lang = "en">
+    	<head>
+         <link rel = 'icon' href = 'https://webp.svsu.edu/~amadarap/images/ball.jpg' type = 'image/jpg' />
+         <link rel = 'stylesheet' href = 'index.css' type = 'text/css' />
+         <style>
+           .multicolumn {
+             column-count: 4;
+             }
+        body {
+          max-width: 1000px;
+          margin: auto;
+          background: white;
+          }
+          img { 
+            height: 25px; 
+            width: 25px; 
+            border: 1px solid gray;
+          }
+        h2, ul, ol {
+          margin-top: 0;
+         }
+      </style>
+    </head>
+
+ <header>
+     <h1> Tennis Scoreboard </h1>
+  </header> 
+
+
+      <form oninput="x.value=parseInt(a.value)+parseInt(b.value)+parseInt(c.value);
+                   p.value=parseInt(d.value)+parseInt(e.value)+parseInt(f.value)">
+        <fieldset>
+            <legend>Tennis </legend>
+                <table border="4">
+                    <tr>
+                        <td>Finals</td>
+                        <td>SET 1</td>
+                        <td>SET 2</td>
+                        <td>SET 3</td>
+                        <td>Total</td>
+                    </tr>
+                    <tr>
+                        <td>Selena</td>
+                        <td><input type="text" size="10" id="a" value="0"></td>
+                        <td><input type="text" size="10" id="b" value="0"></td>
+                        <td><input type="text" size="10" id="c" value="0"></td>
+                        <td><output name="x" for="a b c "></output></td>
+                        </form>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td><input type="text" size="10" id="d" value="0"></td>
+                        <td><input type="text" size="10" id="e" value="0"></td>
+                        <td><input type="text" size="10" id="f" value="0"></td>
+                        <td><output name="p" for="e f g "></output></td>
+                        </form>
+                    </tr>
+                    
+                </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>
+
+
