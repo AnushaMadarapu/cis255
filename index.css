@@ -1,24 +1,37 @@
-body { 
-     background-color: url("paper.gif");
-  }
-     
-h1 {
-  color : blue ;
- }
-   
-legend { 
-    display: block;
-    padding-left: 2px;
-    padding-right: 2px;
-    border-radius: 10px;
-    color: Red;
- } 
-  
- fieldset {
-       background-color: aqua
-       border-radius: 10px;
-       margin-left: 2px;
-       margin-right: 2px;
-       padding-top: 0.35em;
-       padding-bottom: 0.625em;
-  }     
+body {
+	background-color: #FFF2B5;
+}
+h1{
+	color: red;
+	font-family: arial;
+}
+
+h3 {
+	color: blue;
+	font-family: arial;
+	font-size: 150%;
+}
+
+h4 {
+	color: #808080;
+	font-size: 150%;
+}
+
+form{
+	border-style: solid;
+	border-left-color: green;
+	border-right-color: green;
+	border-top-color: red;
+	border-bottom-color: red;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+}
+
+fieldset{
+	background-color: #FFFAE8;
+	width: 400px;
+	text-align: center;
+	padding: 20px;
+	margin: auto;
+}
