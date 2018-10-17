@@ -9,17 +9,21 @@ h1{
 h2 {
 	color: blue;
 	font-family: arial
-	font-size: 250%;
 }
+
 h3 {
 	color: red;
-	font-size: 250%;
 }
+
 h4 {
 	color: #154360;
-	font-family: arial
-	font-size: 250%;
+	font-family: arial;
 }
+
+h2, h3, h4 {
+	fornt-size:250%;
+}
+
 table {
 	border-color: #990000;
 } 	
@@ -34,7 +38,7 @@ form{
 
 fieldset{
 	background-color: #FF99CC;
-	width: 400px;
+	width: 350px;
 	text-align: center;
 	padding: 20px;
 	margin: auto;
