@@ -2,18 +2,21 @@
 <html lang = "en">
     <head>
          <link rel = 'stylesheet' href = 'index.css'>
-     </head>
+     </head
 
  <header>
      <h1> Tennis Scoreboard </h1>
- </header> 
-
-  <body>
-        <form oninput="x.value=parseInt(a.value)+parseInt(b.value)+parseInt(c.value);
-                   p.value=parseInt(d.value)+parseInt(e.value)+parseInt(f.value)">
-                <fieldset>
+ </header>
+   
+   <body>
+   
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)+parseInt(c.value);
+                   y.value=+parseInt(d.value)+ parseInt(e.value)+parseInt(f.value)">
+        <fieldset style="width:250px">
+         
+                <table border="10">
                     <tr>
-                        <td>Finals</td>
+                        <td></td>
                         <td>SET 1</td>
                         <td>SET 2</td>
                         <td>SET 3</td>
@@ -21,22 +24,22 @@
                     </tr>
                     <tr>
                         <td>Selena</td>
-                        <td><input type="text" size="10" id="a" value="0"></td>
-                        <td><input type="text" size="10" id="b" value="0"></td>
-                        <td><input type="text" size="10" id="c" value="0"></td>
-                        <td><output name="x" for="a b c "></output></td>
+                        <td><input type="text" size="15" id="a" value="0"></td>
+                        <td><input type="text" size="15" id="b" value="0"></td>
+                        <td><input type="text" size="15" id="c" value="0"></td>
+                        <td><output name="x" for="a b c"></output></td>
+                        </form>
                     </tr>
                     <tr>
-                        <td>Mary</td>
-                        <td><input type="text" size="10" id="d" value="0"></td>
-                        <td><input type="text" size="10" id="e" value="0"></td>
-                        <td><input type="text" size="10" id="f" value="0"></td>
-                        <td><output name="p" for="e f g "></output></td>
+                        <td>Justin</td>
+                        <td><input type="text" size="15" id="d" value="0"></td>
+                        <td><input type="text" size="15" id="e" value="0"></td>
+                        <td><input type="text" size="15" id="f" value="0"></td>
+                        <td><output name="y" for="d e f "></output></td>
+                        </form>
                     </tr>
+                </table>
         </fieldset>
     </form>
-
-</body>
+  </body> 
 </html>
-
-
