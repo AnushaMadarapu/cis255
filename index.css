@@ -9,15 +9,18 @@ h1{
 
 h2 {
 	color: red;
-	font-size: 100%;
+	font-family: arial
+	font-size: 150%;
 }
 h3 {
 	color: blue;
-	font-size: 100%;
+	font-family: arial
+	font-size: 150%;
 }
 h4 {
-	color: green;
-	font-size: 100%;
+	color: #154360;
+	font-family: arial
+	font-size: 150%;
 }
 table {
 	border-color: #990000;
@@ -25,10 +28,7 @@ table {
 
 form{
 	border-style: solid;
-	border-left-color: green;
-	border-right-color: green;
-	border-top-color: red;
-	border-bottom-color: red;
+	border-color: green;
 	padding: 20px;
 	margin: 10px;
 	text-align: center;
