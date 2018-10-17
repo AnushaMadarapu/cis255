@@ -1,9 +1,9 @@
 body { 
-     background-color: red;
+     background-color: lightblue;
   }
      
 h1 {
-  color : blue ;
+  color : green ;
  }
    
 legend { 
@@ -11,7 +11,7 @@ legend {
     padding-left: 2px;
     padding-right: 2px;
     border-radius: 10px;
-    color: greeen;
+    color: green;
  } 
   
  fieldset {
