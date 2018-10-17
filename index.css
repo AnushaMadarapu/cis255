@@ -1,21 +1,20 @@
 body {
-	background-color: #FFF2B5;
+	background-color: #283747;
 }
 h1{
-	color: red;
-	font-family: arial;
-}
-
-h3 {
 	color: blue;
 	font-family: arial;
-	font-size: 150%;
 }
 
-h4 {
-	color: #808080;
-	font-size: 150%;
+h2 {
+	color: red;
+	font-size: 100%;
 }
+h4 {
+	color: red;
+	font-size: 100%;
+}
+
 
 form{
 	border-style: solid;
